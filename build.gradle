@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+ 
+group = 'com.haulmont.cuba'
+
+version = '1.0.0'
+ 
+jar {
+  from ('VAADIN') {
+  	 into 'VAADIN'
+  }
+}
